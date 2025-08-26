@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring the Infinite Universe</title>
+    <meta name="description" content="Journey through the cosmos - explore the universe, solar system, galaxies, black holes, and space exploration">
+    <link rel="stylesheet" href="{% static 'apps/css/styles.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>Cosmos Explorer</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" aria-label="Go to home section">Home</a></li>
+                <li><a href="#universe" aria-label="Go to universe section">Universe</a></li>
+                <li><a href="#solar-system" aria-label="Go to solar system section">Solar System</a></li>
+                <li><a href="#galaxies" aria-label="Go to galaxies section">Galaxies</a></li>
+                <li><a href="#black-holes" aria-label="Go to black holes section">Black Holes</a></li>
+                <li><a href="#exploration" aria-label="Go to space exploration section">Exploration</a></li>
+                <li><a href="#gallery" aria-label="Go to gallery section">Gallery</a></li>
+                <li><a href="#contact" aria-label="Go to contact section">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Exploring the Infinite Universe</h1>
+            <p class="hero-subtitle">Journey through the cosmos and discover the wonders that lie beyond our world</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">13.8B</span>
+                    <span class="stat-label">Years Old</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">2T</span>
+                    <span class="stat-label">Galaxies</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">Possibilities</span>
+                </div>
+            </div>
+        </div>
+        <div class="floating-elements">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About the Universe -->
+    <section id="universe" class="section">
+        <div class="container">
+            <h2 class="section-title">About the Universe</h2>
+            <div class="universe-content">
+                <div class="universe-intro">
+                    <p>The universe is everything we can touch, feel, sense, measure, or detect. It includes living things, planets, stars, galaxies, dust clouds, light, and even time itself.</p>
+                </div>
+                
+                <div class="timeline-section">
+                    <h3>The Big Bang & Timeline</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>0 seconds</h4>
+                                <p>The Big Bang - Universe begins from a singularity</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>380,000 years</h4>
+                                <p>First atoms form, universe becomes transparent</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>1 billion years</h4>
+                                <p>First stars and galaxies begin to form</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>13.8 billion years</h4>
+                                <p>Present day - Universe continues expanding</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solar System -->
+    <section id="solar-system" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Solar System</h2>
+            <div class="planets-grid">
+                <div class="planet-card">
+                    <div class="planet-image sun"></div>
+                    <h3>The Sun</h3>
+                    <p class="planet-size">Diameter: 1.39M km</p>
+                    <p class="planet-distance">Distance: 0 AU</p>
+                    <p class="planet-fact">Contains 99.86% of the Solar System's mass</p>
+                </div>
+                
+                <div class="planet-card">
+                    <div class="planet-image mercury"></div>
+                    <h3>Mercury</h3>
+                    <p class="planet-size">Diameter: 4,879 km</p>
+                    <p class="planet-distance">Distance: 0.39 AU</p>
+                    <p class="planet-fact">One day lasts 176 Earth days</p>
+                </div>
+                
+                <div class="planet-card">
+                    <div class="planet-image venus"></div>
+                    <h3>Venus</h3>
+                    <p class="planet-size">Diameter: 12,104 km</p>
+                    <p class="planet-distance">Distance: 0.72 AU</p>
+                    <p class="planet-fact">Hottest planet with surface temp of 462°C</p>
+                </div>
+                
+                <div class="planet-card">
+                    <div class="planet-image earth"></div>
+                    <h3>Earth</h3>
+                    <p class="planet-size">Diameter: 12,756 km</p>
+                    <p class="planet-distance">Distance: 1.00 AU</p>
+                    <p class="planet-fact">The only known planet with life</p>
+                </div>
+                
+                <div class="planet-card">
+                    <div class="planet-image mars"></div>
+                    <h3>Mars</h3>
+                    <p class="planet-size">Diameter: 6,792 km</p>
+                    <p class="planet-distance">Distance: 1.52 AU</p>
+                    <p class="planet-fact">Has the largest volcano in the solar system</p>
+                </div>
+                
+                <div class="planet-card">
+                    <div class="planet-image jupiter"></div>
+                    <h3>Jupiter</h3>
+                    <p class="planet-size">Diameter: 142,984 km</p>
+                    <p class="planet-distance">Distance: 5.20 AU</p>
+                    <p class="planet-fact">Has over 80 known moons</p>
+                </div>
+                
+                <div class="planet-card">
+                    <div class="planet-image saturn"></div>
+                    <h3>Saturn</h3>
+                    <p class="planet-size">Diameter: 120,536 km</p>
+                    <p class="planet-distance">Distance: 9.58 AU</p>
+                    <p class="planet-fact">Famous for its spectacular ring system</p>
+                </div>
+                
+                <div class="planet-card">
+                    <div class="planet-image uranus"></div>
+                    <h3>Uranus</h3>
+                    <p class="planet-size">Diameter: 51,118 km</p>
+                    <p class="planet-distance">Distance: 19.22 AU</p>
+                    <p class="planet-fact">Rotates on its side at 98° tilt</p>
+                </div>
+                
+                <div class="planet-card">
+                    <div class="planet-image neptune"></div>
+                    <h3>Neptune</h3>
+                    <p class="planet-size">Diameter: 49,528 km</p>
+                    <p class="planet-distance">Distance: 30.05 AU</p>
+                    <p class="planet-fact">Windiest planet with speeds up to 2,100 km/h</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Galaxies & Stars -->
+    <section id="galaxies" class="section">
+        <div class="container">
+            <h2 class="section-title">Galaxies & Stars</h2>
+            <div class="galaxies-content">
+                <div class="galaxy-types">
+                    <h3>Types of Galaxies</h3>
+                    <div class="galaxy-grid">
+                        <div class="galaxy-card">
+                            <h4>Spiral Galaxies</h4>
+                            <p>Like our Milky Way, featuring spiral arms and a central bulge</p>
+                        </div>
+                        <div class="galaxy-card">
+                            <h4>Elliptical Galaxies</h4>
+                            <p>Oval-shaped galaxies with older stars and little gas</p>
+                        </div>
+                        <div class="galaxy-card">
+                            <h4>Irregular Galaxies</h4>
+                            <p>No defined shape, often result of galactic collisions</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="star-lifecycle">
+                    <h3>Star Life Cycle</h3>
+                    <div class="lifecycle-steps">
+                        <div class="lifecycle-step">
+                            <div class="step-number">1</div>
+                            <h4>Nebula</h4>
+                            <p>Gas and dust cloud begins to collapse</p>
+                        </div>
+                        <div class="lifecycle-step">
+                            <div class="step-number">2</div>
+                            <h4>Protostar</h4>
+                            <p>Material heats up and begins nuclear fusion</p>
+                        </div>
+                        <div class="lifecycle-step">
+                            <div class="step-number">3</div>
+                            <h4>Main Sequence</h4>
+                            <p>Stable hydrogen burning phase</p>
+                        </div>
+                        <div class="lifecycle-step">
+                            <div class="step-number">4</div>
+                            <h4>Red Giant</h4>
+                            <p>Star expands as fuel runs out</p>
+                        </div>
+                        <div class="lifecycle-step">
+                            <div class="step-number">5</div>
+                            <h4>White Dwarf / Neutron Star / Black Hole</h4>
+                            <p>Final stage depends on star's mass</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Black Holes & Dark Matter -->
+    <section id="black-holes" class="section">
+        <div class="container">
+            <h2 class="section-title">Black Holes & Dark Matter</h2>
+            <div class="mysteries-content">
+                <div class="mystery-card">
+                    <h3>Black Holes</h3>
+                    <p>Regions of spacetime where gravity is so strong that nothing, not even light, can escape once it crosses the event horizon.</p>
+                    <ul>
+                        <li>Formed when massive stars collapse</li>
+                        <li>Can have millions of times the mass of our Sun</li>
+                        <li>Time slows down near black holes due to gravity</li>
+                        <li>They slowly evaporate through Hawking radiation</li>
+                    </ul>
+                </div>
+                
+                <div class="mystery-card">
+                    <h3>Dark Matter</h3>
+                    <p>Invisible matter that makes up about 27% of the universe. We can't see it directly, but we know it exists because of its gravitational effects.</p>
+                    <ul>
+                        <li>Five times more abundant than regular matter</li>
+                        <li>Doesn't emit, absorb, or reflect light</li>
+                        <li>Helps hold galaxies together</li>
+                        <li>Its true nature remains one of physics' greatest mysteries</li>
+                    </ul>
+                </div>
+                
+                <div class="mystery-card">
+                    <h3>Dark Energy</h3>
+                    <p>A mysterious force causing the universe's expansion to accelerate. It makes up about 68% of the universe.</p>
+                    <ul>
+                        <li>Discovered through observations of distant supernovae</li>
+                        <li>Acts opposite to gravity on cosmic scales</li>
+                        <li>May determine the ultimate fate of the universe</li>
+                        <li>Could lead to the "Big Rip" scenario</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Space Exploration -->
+    <section id="exploration" class="section">
+        <div class="container">
+            <h2 class="section-title">Space Exploration</h2>
+            <div class="exploration-timeline">
+                <div class="era-section">
+                    <h3>Past Achievements</h3>
+                    <div class="achievement-grid">
+                        <div class="achievement-card">
+                            <h4>1957 - Sputnik 1</h4>
+                            <p>First artificial satellite launched by Soviet Union</p>
+                        </div>
+                        <div class="achievement-card">
+                            <h4>1969 - Moon Landing</h4>
+                            <p>Apollo 11 lands first humans on the Moon</p>
+                        </div>
+                        <div class="achievement-card">
+                            <h4>1977 - Voyager Missions</h4>
+                            <p>Launched to explore outer solar system</p>
+                        </div>
+                        <div class="achievement-card">
+                            <h4>1990 - Hubble Telescope</h4>
+                            <p>Revolutionary space telescope deployed</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="era-section">
+                    <h3>Present Missions</h3>
+                    <div class="achievement-grid">
+                        <div class="achievement-card">
+                            <h4>International Space Station</h4>
+                            <p>Continuous human presence in space since 2000</p>
+                        </div>
+                        <div class="achievement-card">
+                            <h4>Mars Rovers</h4>
+                            <p>Perseverance and Curiosity exploring Mars</p>
+                        </div>
+                        <div class="achievement-card">
+                            <h4>James Webb Telescope</h4>
+                            <p>Most powerful space telescope ever built</p>
+                        </div>
+                        <div class="achievement-card">
+                            <h4>Commercial Spaceflight</h4>
+                            <p>SpaceX, Blue Origin making space accessible</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="era-section">
+                    <h3>Future Goals</h3>
+                    <div class="achievement-grid">
+                        <div class="achievement-card">
+                            <h4>Return to Moon</h4>
+                            <p>Artemis program aims for sustainable lunar presence</p>
+                        </div>
+                        <div class="achievement-card">
+                            <h4>Mars Colonization</h4>
+                            <p>Establishing permanent human settlement on Mars</p>
+                        </div>
+                        <div class="achievement-card">
+                            <h4>Interstellar Travel</h4>
+                            <p>Breakthrough Starshot and other initiatives</p>
+                        </div>
+                        <div class="achievement-card">
+                            <h4>Search for Life</h4>
+                            <p>Advanced telescopes hunting for exoplanets</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Cosmic Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Deep field view showing thousands of distant galaxies">
+                    <div class="gallery-overlay">
+                        <h4>Deep Field Galaxies</h4>
+                        <p>Thousands of galaxies in a tiny patch of sky</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Colorful nebula with swirling gas clouds">
+                    <div class="gallery-overlay">
+                        <h4>Eagle Nebula</h4>
+                        <p>Star-forming region 7,000 light-years away</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Close-up view of Saturn's intricate ring system">
+                    <div class="gallery-overlay">
+                        <h4>Saturn's Rings</h4>
+                        <p>Intricate ring system made of ice and rock</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Artist's impression of a black hole with accretion disk">
+                    <div class="gallery-overlay">
+                        <h4>Black Hole</h4>
+                        <p>Supermassive black hole with accretion disk</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Mars surface as seen by a rover">
+                    <div class="gallery-overlay">
+                        <h4>Mars Surface</h4>
+                        <p>Red planet landscape captured by rovers</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Spiral structure of the Milky Way galaxy">
+                    <div class="gallery-overlay">
+                        <h4>Milky Way</h4>
+                        <p>Our home galaxy with 100 billion stars</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Join Our Cosmic Journey</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for the latest discoveries and space exploration news.</p>
+                    <div class="contact-stats">
+                        <div class="contact-stat">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">Subscribers</span>
+                        </div>
+                        <div class="contact-stat">
+                            <span class="stat-number">Weekly</span>
+                            <span class="stat-label">Updates</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" aria-label="Newsletter subscription form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required aria-describedby="name-help">
+                        <small id="name-help">Your full name</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required aria-describedby="email-help">
+                        <small id="email-help">We'll never share your email</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interests">Interests</label>
+                        <select id="interests" name="interests" aria-describedby="interests-help">
+                            <option value="">Select your main interest</option>
+                            <option value="planets">Planets & Solar System</option>
+                            <option value="galaxies">Galaxies & Stars</option>
+                            <option value="black-holes">Black Holes & Physics</option>
+                            <option value="exploration">Space Exploration</option>
+                            <option value="all">All Topics</option>
+                        </select>
+                        <small id="interests-help">Help us personalize your content</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message (Optional)</label>
+                        <textarea id="message" name="message" rows="4" aria-describedby="message-help"></textarea>
+                        <small id="message-help">Any questions or topics you'd like to see covered?</small>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span>Subscribe to Updates</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cosmos Explorer</h3>
+                    <p>Exploring the infinite universe, one discovery at a time.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#universe">Universe</a></li>
+                        <li><a href="#solar-system">Solar System</a></li>
+                        <li><a href="#galaxies">Galaxies</a></li>
+                        <li><a href="#exploration">Exploration</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#" aria-label="Privacy policy">Privacy</a></li>
+                        <li><a href="#" aria-label="Terms of service">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cosmos Explorer. Made with ❤️ for space enthusiasts.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
